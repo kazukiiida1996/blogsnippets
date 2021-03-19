@@ -52,6 +52,5 @@ class LoopMe:
     def __iter__(self):
         return iter(range(3))
 
-
 for el in LoopMe():
     print(el)
