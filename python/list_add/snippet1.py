@@ -31,17 +31,6 @@ print(lis)
 
 lis = [1, 2, 3]
 
-lis.insert(0, 4)  # lisの0番目の位置に値4を挿入する
-print(lis)
-# [4, 1, 2, 3]
-
-lis.insert(2, 5)  # lisの2番目の位置に値5を挿入する
-print(lis)
-# [4, 1, 5, 2, 3]
-
-
-lis = [1, 2, 3]
-
 lis.extend([4, 5])
 print(lis)
 # [1, 2, 3, 4, 5]
@@ -53,3 +42,14 @@ print(lis)
 lis.extend({'a': 1, 'b': 2})
 print(lis)
 # [1, 2, 3, 4, 5, 6, 7, 'a', 'b']
+
+
+lis = [1, 2, 3]
+
+lis.insert(0, 4)  # lisの0番目の位置に値4を挿入する
+print(lis)
+# [4, 1, 2, 3]
+
+lis.insert(2, 5)  # lisの2番目の位置に値5を挿入する
+print(lis)
+# [4, 1, 5, 2, 3]
