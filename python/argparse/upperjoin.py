@@ -1,7 +1,7 @@
 import argparse
 
 
-parser = argparse.ArgumentParser('mycmd', description='これはサンプルプログラムです。')
+parser = argparse.ArgumentParser('upperjoin', description='単語を連結します。')
 parser.add_argument('words', nargs='+', help='単語のリストです。')
 parser.add_argument('-j', '--join', type=str, help='単語を連結します')
 parser.add_argument('--upper', action='store_true', help='単語を大文字にします')
@@ -18,3 +18,5 @@ if args.join:
     # ARG1:ARG2
 else:
     print(words)
+    # $ python upperjoin.py arg1 arg2
+    # ['arg1', 'arg2']
