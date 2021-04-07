@@ -1,9 +1,9 @@
 import array
 
-a = array.array('B')  # unsigned char型の配列を生成
+arr = array.array('B')  # unsigned char型の配列を生成
 
-a.append(1)
-a.append(2)
+arr.append(1)
+arr.append(2)
 
-print(a)
+print(arr)
 # array('B', [1, 2])
