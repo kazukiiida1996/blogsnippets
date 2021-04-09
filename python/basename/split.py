@@ -23,7 +23,7 @@ print(dirname)
 
 
 path = '/path/to/dir'
-os.path.dirname(path)
+dirname = os.path.dirname(path)
 print(dirname)
 # dir
 
