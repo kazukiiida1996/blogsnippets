@@ -12,4 +12,6 @@ class Animal:
 
 animal = Animal('Pochi', 20)
 animal.show_name()
+# Pochi
 animal.show_age()
+# 20
