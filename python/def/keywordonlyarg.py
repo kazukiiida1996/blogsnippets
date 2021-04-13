@@ -1,7 +1,6 @@
 def func(a, b, *, c):
     print(a, b, c)
 
-
 func(1, 2, c=3)
 # 1 2 3
 
@@ -13,4 +12,3 @@ try:
 except TypeError as e:
     print(e)
     # func() takes 2 positional arguments but 3 were given
-    
