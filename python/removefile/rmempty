@@ -1,0 +1,3 @@
+#!/bin/bash
+rm -f samples/emptydir/empty
+rm -f samples/dir2/emptydir/empty
