@@ -8,9 +8,9 @@ print(typ)
 
 
 if type(1) is int:
-    print('is int!')
-    # is int!
+    print('int型です')
+    # int型です
 
 if isinstance('Good', str):
-    print('is str!')
-    # is str!
+    print('str型です')
+    # str型です
