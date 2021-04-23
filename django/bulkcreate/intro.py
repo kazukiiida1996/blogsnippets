@@ -6,4 +6,4 @@ for i in range(10000):
     obj = Article(title=f'{i} article')
     objs.append(obj)
 
-articles = Article.objects.bulk_create(objs)
+Article.objects.bulk_create(objs)
