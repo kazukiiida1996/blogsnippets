@@ -12,6 +12,10 @@ n = int('1')
 print(n)
 # 1
 
+n = int('    -123    ')
+print(n)
+# -123
+
 
 n = int(b'12')
 print(n)
