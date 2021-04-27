@@ -49,3 +49,9 @@ try:
 except TypeError as e:
     print(e)
     # float() argument must be a string or a number, not 'NoneType'
+
+try:
+    float(2 ** 10000)
+except OverflowError as e:
+    print(e)
+    # int too large to convert to float
