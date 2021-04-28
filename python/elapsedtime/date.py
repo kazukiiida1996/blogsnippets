@@ -1,5 +1,4 @@
 from datetime import date
-import time
 
 
 today = date.today()
@@ -8,6 +7,10 @@ print(type(today))
 
 print(today)
 # 2021-04-28
+
+
+from datetime import date
+import time
 
 
 start = date.today()
