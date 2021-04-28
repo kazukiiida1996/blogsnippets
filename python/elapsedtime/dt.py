@@ -1,5 +1,4 @@
 from datetime import datetime
-import time
 
 
 today = datetime.today()
@@ -8,6 +7,10 @@ print(type(today))
 
 print(today)
 # 2021-04-28 00:00:00.000000
+
+
+from datetime import datetime
+import time
 
 
 start = datetime.today()  # 開始時刻を取得
