@@ -22,11 +22,11 @@ print(dif)
 
 
 start = datetime.today()
-time.sleep(1)
+time.sleep(3)
 end = datetime.today()
 dif = end - start
 print(type(dif))
 # <class 'datetime.timedelta'>
 
 print(dif.seconds)
-# 1
+# 3
