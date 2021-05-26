@@ -23,6 +23,6 @@ print(result)
 
 
 s = 'Hello'
-result = f'{s}, World!'
-print(result)  # f文字列で連結
+result = f'{s}, World!'  # f文字列で連結
+print(result)
 # Hello, World!
