@@ -22,4 +22,4 @@ s = 'One and One'
 try:
     s.count(None)
 except TypeError as e:
-    print(e)  #
+    print(e)  # must be str, not NoneType
