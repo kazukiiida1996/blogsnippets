@@ -3,10 +3,10 @@ s = 'Hello, Cat Cat!'
 print('Cat' in s)  # in演算子でCatがsに含まれるか判定
 # True
 
-print(s.find('Cat'))  # find()でCatがsに含まれるか前方から検索
+print(s.find('Cat'))  # find()でCatの位置を前方から検索
 # 7
 
-print(s.rfind('Cat'))  # rfind()でCatがsに含まれるか後方から検索
+print(s.rfind('Cat'))  # rfind()でCatの位置を後方から検索
 # 11
 
 print(s.count('Cat'))  # count()でCatがsに何個含まれるかカウント
