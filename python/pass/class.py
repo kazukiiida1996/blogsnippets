@@ -8,9 +8,8 @@ class Taro:
 class Kenji:
     pass
 
-class Humans:
+class humans:
     pass
 
-humans = Humans()
 humans.taro = Taro()
 humans.kenji = Kenji()
