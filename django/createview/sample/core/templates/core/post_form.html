@@ -1,3 +1,4 @@
+<p>{{ message }}</p>
 <form action="{% url 'posts-create' %}" method="POST">
   {% csrf_token %}
   {{ form.as_p }}
