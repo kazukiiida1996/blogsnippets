@@ -1,0 +1,13 @@
+manage.py
+db.sqlite3
+__pycache__/
+*.pyc
+migrations/
+apps.py
+tests.py
+asgi.py
+settings.py
+wsgi.py
+views.py
+admin.py
+sample/
