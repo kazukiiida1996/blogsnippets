@@ -25,6 +25,11 @@ print(path)
 # /blogsnippets/python/django/basedir/mysite/mysite/settings.py
 
 
+path = Path(__file__).resolve()
+print(path)
+# /blogsnippets/python/django/basedir/mysite/mysite/settings.py
+
+
 print(Path('/aaa/bbb/ccc').parent)
 
 
