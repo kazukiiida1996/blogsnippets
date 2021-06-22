@@ -31,6 +31,7 @@ print(path)
 
 
 print(Path('/aaa/bbb/ccc').parent)
+# /aaa/bbb
 
 
 print(Path('/aaa/bbb/ccc').parent.parent)
