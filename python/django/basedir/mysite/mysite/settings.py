@@ -17,6 +17,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 
 
 print('settings.py: __file__ =', __file__)
+# /blogsnippets/python/django/basedir/mysite/mysite/settings.py
 
 
 path = Path(__file__)
