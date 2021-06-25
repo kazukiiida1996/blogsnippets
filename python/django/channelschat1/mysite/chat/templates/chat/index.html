@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>簡単なチャットへ入室する</title>
+</head>
+<body>
+  <label>入室するチャットのルーム名: </label>
+  <input id="room-name-input" type="text" size="30"> 
+  <input id="room-name-submit" type="button" value="入室">
+
+  <script>
+    // チャット・ルームに入室するロジック
+    const input = document.querySelector('#room-name-input')
+    const submit = document.querySelector('#room-name-submit')
+
+    input.focus()  // フォーカスを入力欄に設定する
+    input.onkeyup = (ev) => {
+      if (ev.keyCode === 13) {
+        // ENTERキーが押されたら入室ボタンを押す
+        submit.click()
+      }
+    }
+
+    submit.onclick = (ev) => {
+      // 入室ボタンがクリックされたら、入力されたチャット・ルーム名のページ（パス）に移動する
+      window.location.pathname = '/chat/' + input.value + '/'
+    }
+  </script>
+</body>
+</html>
