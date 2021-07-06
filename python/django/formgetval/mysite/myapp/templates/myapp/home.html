@@ -1,0 +1,9 @@
+{# myapp/templates/myapp/home.html #}
+
+<h1>本の情報登録フォーム</h1>
+
+<form action="{% url 'myapp_home' %}" method='POST'>
+  {% csrf_token %}
+  {{ form.as_p }}
+  <input type="submit" value="登録" />
+</form>
