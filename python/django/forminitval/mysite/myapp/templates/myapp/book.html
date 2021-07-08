@@ -1,0 +1,9 @@
+{# myapp/templates/myapp/book.html #}
+
+<h1>本の登録フォーム</h1>
+
+<form action="{% url 'book' %}" method="POST">
+  {% csrf_token %}
+  {{ form.as_p }}
+  <input type="submit" value="登録" />
+</form>

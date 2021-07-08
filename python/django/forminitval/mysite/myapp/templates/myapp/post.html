@@ -1,0 +1,9 @@
+{# myapp/templates/myapp/post.html #}
+
+<h1>投稿フォーム</h1>
+
+<form action="{% url 'post' %}" method="POST">
+  {% csrf_token %}
+  {{ form.as_p }}
+  <input type="submit" value="投稿" />
+</form>
