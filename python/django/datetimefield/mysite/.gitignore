@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+db.sqlite3
+migrations/
+sample/settings.py
+blog/admin.py
+blog/apps.py
+blog/tests.py
+mysite/asgi.py
+mysite/settings.py
+mysite/wsgi.py
