@@ -29,7 +29,7 @@ int main(void) {
         printf("failed to check(). %s.\n", strerror(save_errno));
 
         // errnoの値によってエラー処理を分岐する
-        switch (errno) {
+        switch (save_errno) {
         default:
             // サポートしていないerrno
             printf("unknown error.\n");
