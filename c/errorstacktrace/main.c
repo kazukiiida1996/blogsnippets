@@ -15,7 +15,7 @@ typedef struct {
 } ErrorStackItem;
 
 typedef struct {
-    int top;
+    int32_t top;
     ErrorStackItem items[ERROR_STACK_ITEMS_SIZE];
 } ErrorStack;
 
