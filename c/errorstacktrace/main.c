@@ -68,4 +68,6 @@ int main(void) {
     if (has_error(&stack)) {
         stack_trace(&stack);
     }
+
+    return 0;
 }
