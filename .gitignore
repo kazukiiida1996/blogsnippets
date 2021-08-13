@@ -5,6 +5,7 @@ venv_win/
 migrations/
 a.out
 a.exe
+*.o
 command
 command.out
 prog
