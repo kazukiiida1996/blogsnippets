@@ -25,7 +25,7 @@ void funcptr(int *ptr) {
     // ここに色々な処理
 }
 
-void print(int length, ...) {
+void print(const char *fmt, ...) {
     va_list ap;
     va_start(ap, fmt);
     vprintf(fmt, ap);
