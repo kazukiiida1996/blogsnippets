@@ -45,5 +45,6 @@ int main(void) {
     funcptr(&i);
 
     print("Hello, %s!\n", "World");
+    // Hello, World!
     return 0;
 }
