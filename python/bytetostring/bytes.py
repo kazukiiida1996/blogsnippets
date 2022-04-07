@@ -10,12 +10,6 @@ print(type(b))
 print(b)
 
 
-s = str(b'abc123')
-
-print(type(s))
-print(s)
-
-
 try:
     b'\x80abc'.decode('utf-8')
 except UnicodeDecodeError as e:
